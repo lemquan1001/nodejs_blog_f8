@@ -1,0 +1,12 @@
+
+/* Không bao giờ vieetds code vào file .css,chỉ viết vào những file .scss ,vì chúng complete vào file này */
+@import 'variable';
+
+
+.test{
+    color:red;
+    font-size: 22px;
+}
+h1 {
+    color:$pink_color;
+}
