@@ -1,4 +1,7 @@
 .vscode
 
-
+src/public/css/
 node_modules/
+
+
+# những file trong này sẽ không được commit
