@@ -23,6 +23,10 @@ app.get('/', (req, res) => {
 app.get('/news', (req, res) => {
   res.render('news')
 })
+app.get('/search', (req, res) => {
+  console.log(req.query.q) //lấy value truyền qua url
+  res.render('search')
+})
 
 
 app.listen(port, () => {
